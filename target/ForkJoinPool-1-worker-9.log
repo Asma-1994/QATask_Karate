@@ -1,45 +1,45 @@
-19:22:50.809 karate.env system property was:  
-19:22:54.770 request:
-1 > PUT https://reqres.in/api/users/2
+01:27:06.527 karate.env system property was:  
+01:27:10.084 request:
+1 > POST https://reqres.in/api/users?delay=3
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Length: 41
+1 > Content-Length: 34
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
-{"name":"morpheus","job":"zion resident"}
+{"name":"morpheus","job":"leader"}
 
-19:22:57.046 response time in milliseconds: 2273.81
-1 < 200
+01:27:17.044 response time in milliseconds: 6957.64
+1 < 201
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d53c65f9fedd9c0-SIN
+1 < CF-RAY: 5d55dbfc7e39cbf8-SIN
 1 < Connection: keep-alive
+1 < Content-Length: 84
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 19 Sep 2020 13:50:17 GMT
-1 < Etag: W/"50-RNmJxFp2qK9j4VjJJwfPJJ67rtE"
+1 < Date: Sat, 19 Sep 2020 19:54:37 GMT
+1 < Etag: W/"54-gQbk9JUnE86knaBV6s7OpXukeWM"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d366533d7157132984dca66e8f1e35d2e1600523417; expires=Mon, 19-Oct-20 13:50:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-1 < Transfer-Encoding: chunked
-1 < Vary: Accept-Encoding
+1 < Set-Cookie: __cfduid=d396fa8b0f39a58d1393b7a4955d090491600545274; expires=Mon, 19-Oct-20 19:54:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 05483a4fbd0000d9c0fb31b200000001
-{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-19T13:50:17.826Z"}
+1 < cf-request-id: 054987d1c90000cbf89d155200000001
+{"name":"morpheus","job":"leader","id":"534","createdAt":"2020-09-19T19:54:37.615Z"}
 
-19:22:57.057 [print] {
+01:27:17.055 [print] {
+  "createdAt": "2020-09-19T19:54:37.615Z",
   "name": "morpheus",
-  "job": "zion resident",
-  "updatedAt": "2020-09-19T13:50:17.826Z"
+  "id": "534",
+  "job": "leader"
 }
 
-atus": "success"
+-19T19:52:10.830Z"
 }
 
-y","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
 
-18:59:22.928 [print] {
+01:22:52.530 [print] {
   "data": [
     {
       "profile_image": "",
@@ -212,6 +212,7 @@ y","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5",
   ],
   "status": "success"
 }
+
 
 oa(JSON.stringify(pushPixels));}}
 pixels=[];}

@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports  - Feature: examples/users/featuredata/putRequest.feature</title>
+<title>Cucumber Reports  - Feature: examples/users/featuredata/putrequest.feature</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demo</td>
-      <td>19 Sep 2020, 23:19</td>
+      <td>20 Sep 2020, 01:27</td>
     </tr>
   </tbody>
 </table>
@@ -126,7 +126,7 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">examples/users/featuredata/putRequest.feature</td>
+          <td class="tagname">examples/users/featuredata/putrequest.feature</td>
           <td      class="passed"    >10</td>
           <td >0</td>
           <td >0</td>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="5208355200">5.208</td>
+          <td class="duration" data-value="7324785700">7.324</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -173,7 +173,7 @@ $(document).ready(function() {
 
 <div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">examples/users/featuredata/putRequest.feature</span>
+  <span class="name">examples/users/featuredata/putrequest.feature</span>
 
 
 </div>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.243</span>
+  <span class="lead-duration duration">0.801</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -232,7 +232,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">url 'https://reqres.in/'</span>
 
-  <span class="lead-duration duration">0.043</span>
+  <span class="lead-duration duration">0.287</span>
 
 </div>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>18:19:54.239 karate.env system property was:</pre>
+        <pre>01:27:06.597 karate.env system property was:</pre>
       </div>
     </div>
   </div>
@@ -269,7 +269,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def jsonPayLoad = read('../resource/postandputrequest.json')</span>
 
-  <span class="lead-duration duration">0.087</span>
+  <span class="lead-duration duration">0.161</span>
 
 </div>
 
@@ -296,7 +296,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def expectedOutput = read('../resource/allemployee.json')</span>
 
-  <span class="lead-duration duration">0.093</span>
+  <span class="lead-duration duration">0.348</span>
 
 </div>
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">header Content-type = 'application/json'</span>
 
-  <span class="lead-duration duration">0.019</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -358,17 +358,19 @@ $(document).ready(function() {
 
 
 <div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2226523296.html">@Regression</a>
 </div>
 
 
-  <span class="lead-duration duration">4.964</span>
+  <span class="lead-duration duration">6.523</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Create a user and validate response</span>
+  <span class="name">Update a user information and validate response</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -404,7 +406,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">path '/api/users/2'</span>
 
-  <span class="lead-duration duration">0.322</span>
+  <span class="lead-duration duration">0.010</span>
 
 </div>
 
@@ -431,7 +433,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request jsonPayLoad[1]</span>
 
-  <span class="lead-duration duration">0.218</span>
+  <span class="lead-duration duration">0.244</span>
 
 </div>
 
@@ -458,7 +460,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method PUT</span>
 
-  <span class="lead-duration duration">4.411</span>
+  <span class="lead-duration duration">6.248</span>
 
 </div>
 
@@ -476,7 +478,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>18:19:57.316 request:
+        <pre>01:27:10.082 request:
 1 &gt; PUT https://reqres.in/api/users/2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -486,24 +488,24 @@ $(document).ready(function() {
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 {&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;zion resident&quot;}
 
-18:19:59.761 response time in milliseconds: 2443.61
+01:27:14.027 response time in milliseconds: 3937.89
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5d536a27b8a51a4a-SIN
+1 &lt; CF-RAY: 5d55dbfc1d50dd06-SIN
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 19 Sep 2020 12:47:20 GMT
-1 &lt; Etag: W/&quot;50-wGDcINuumvQA3MhY/fVS/SBMvac&quot;
+1 &lt; Date: Sat, 19 Sep 2020 19:54:34 GMT
+1 &lt; Etag: W/&quot;50-VNTaPn4DCfj2MFSOohLt3wuhqxs&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=dc547513dc887accba577ebe065fa34331600519640; expires=Mon, 19-Oct-20 12:47:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Set-Cookie: __cfduid=d7bc8faa204c92693600fc603624bea731600545274; expires=Mon, 19-Oct-20 19:54:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 054800acd700001a4a38309200000001
-{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;zion resident&quot;,&quot;updatedAt&quot;:&quot;2020-09-19T12:47:20.570Z&quot;}</pre>
+1 &lt; cf-request-id: 054987d18e0000dd06900e7200000001
+{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;zion resident&quot;,&quot;updatedAt&quot;:&quot;2020-09-19T19:54:34.583Z&quot;}</pre>
       </div>
     </div>
   </div>
@@ -549,7 +551,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 
@@ -567,10 +569,10 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>18:19:59.763 [print] {
+        <pre>01:27:14.036 [print] {
   &quot;name&quot;: &quot;morpheus&quot;,
   &quot;job&quot;: &quot;zion resident&quot;,
-  &quot;updatedAt&quot;: &quot;2020-09-19T12:47:20.570Z&quot;
+  &quot;updatedAt&quot;: &quot;2020-09-19T19:54:34.583Z&quot;
 }</pre>
       </div>
     </div>
@@ -590,7 +592,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response == expectedOutput[3]</span>
 
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.010</span>
 
 </div>
 

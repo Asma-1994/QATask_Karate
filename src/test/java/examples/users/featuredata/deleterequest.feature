@@ -7,13 +7,10 @@ Feature: QA task for Post Request
     * def expectedOutput = read('../resource/allemployee.json')
     * header Content-type = 'application/json'
     
- @Regression
-  Scenario: Create a user and validate response
-    Given path '/api/users'
-    And request jsonPayLoad[0]
-    And param delay = 3 
-    When method POST
-    Then status 201
+    
+ @Regression     
+ Scenario: Delete a user information and validate response code
+    Given path '/api/products/3'
+    When method DELETE
+    Then status 204
     Then print response
-     And match response == expectedOutput[2] 
- 

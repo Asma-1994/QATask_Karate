@@ -1,0 +1,12 @@
+<testsuite failures="0" name="examples/users/featuredata/deleterequest.feature" skipped="0" tests="1" time="7.284139">
+  <testcase classname="examples.users.featuredata.deleterequest" name="Delete a user information and validate response code" time="7.284139">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/products/3' .............................................. passed
+When method DELETE ........................................................ passed
+Then status 204 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

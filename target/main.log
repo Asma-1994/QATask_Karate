@@ -1,102 +1,128 @@
-20:28:03.589 karate.env system property was:  
-20:28:06.326 request:
+00:40:30.484 karate.env system property was:  
+00:40:33.405 request:
 1 > POST https://reqres.in/api/users?delay=3
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Content-Length: 34
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: reqres.in
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_241)
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_20)
 {"name":"morpheus","job":"leader"}
 
-20:28:11.194 response time in milliseconds: 4864.89
+00:40:39.540 response time in milliseconds: 6110.74
 1 < 201
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d5425db2c811a22-SIN
+1 < CF-RAY: 5d5597af798ee24b-SIN
 1 < Connection: keep-alive
-1 < Content-Length: 84
+1 < Content-Length: 83
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 19 Sep 2020 14:55:31 GMT
-1 < Etag: W/"54-Nrq1rPOwka5cmgWUE6d21YJTzws"
+1 < Date: Sat, 19 Sep 2020 19:08:00 GMT
+1 < Etag: W/"53-NhdWb1pNQwzmy21iKbH0J8PEppw"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d46718270640e1de62549ec7156ab7e251600527328; expires=Mon, 19-Oct-20 14:55:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d2212367304f88b7c29e359dcd62b37221600542476; expires=Mon, 19-Oct-20 19:07:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 054875fcf900001a22a3a4a200000001
-{"name":"morpheus","job":"leader","id":"597","createdAt":"2020-09-19T14:55:31.811Z"}
+1 < cf-request-id: 05495d21a70000e24bf5ab3200000001
+{"name":"morpheus","job":"leader","id":"59","createdAt":"2020-09-19T19:08:00.013Z"}
 
-20:28:11.199 [print] {
-  "createdAt": "2020-09-19T14:55:31.811Z",
+00:40:39.545 [print] {
+  "createdAt": "2020-09-19T19:08:00.013Z",
   "name": "morpheus",
-  "id": "597",
+  "id": "59",
   "job": "leader"
 }
 
-20:28:11.262 karate.env system property was:  
-20:28:11.306 request:
+00:40:39.682 karate.env system property was:  
+00:40:39.841 request:
 1 > PUT https://reqres.in/api/users/2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Content-Length: 41
 1 > Content-Type: application/json; charset=UTF-8
 1 > Host: reqres.in
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_241)
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_20)
 {"name":"morpheus","job":"zion resident"}
 
-20:28:11.990 response time in milliseconds: 680.46
+00:40:40.718 response time in milliseconds: 871.80
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d5425f38d510202-SIN
+1 < CF-RAY: 5d5597c90d181aa0-SIN
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 19 Sep 2020 14:55:32 GMT
-1 < Etag: W/"50-zCPrAjvX8CHbdoHuXCBLKYm1PuI"
+1 < Date: Sat, 19 Sep 2020 19:08:01 GMT
+1 < Etag: W/"50-sr9TMq1YLnBPGNjzkJcckS+giZ0"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d62e8c5dac42b10ebfda8f97d6bcf37541600527332; expires=Mon, 19-Oct-20 14:55:32 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d496dca30304971d7d4532ae5321db9861600542480; expires=Mon, 19-Oct-20 19:08:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 0548760c3000000202e7a32200000001
-{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-19T14:55:32.686Z"}
+1 < cf-request-id: 05495d31a900001aa037bb4200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-19T19:08:01.099Z"}
 
-20:28:11.992 [print] {
+00:40:40.720 [print] {
   "name": "morpheus",
   "job": "zion resident",
-  "updatedAt": "2020-09-19T14:55:32.686Z"
+  "updatedAt": "2020-09-19T19:08:01.099Z"
 }
 
-20:28:12.020 karate.env system property was:  
-20:28:12.037 request:
+00:40:40.761 karate.env system property was:  
+00:40:40.790 request:
 1 > DELETE https://reqres.in/api/products/3
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Content-type: application/json
 1 > Host: reqres.in
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_241)
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_20)
 
-20:28:12.677 response time in milliseconds: 638.28
+00:40:41.408 response time in milliseconds: 617.98
 1 < 204
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d5425f81fd919c1-SIN
+1 < CF-RAY: 5d5597cee8e617af-SIN
 1 < Connection: keep-alive
 1 < Content-Length: 0
-1 < Date: Sat, 19 Sep 2020 14:55:33 GMT
+1 < Date: Sat, 19 Sep 2020 19:08:02 GMT
 1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d1b05a995e12116b03597234010ac8ccf1600527333; expires=Mon, 19-Oct-20 14:55:33 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d564437975e08a82f52c00d2dc3fea56f1600542481; expires=Mon, 19-Oct-20 19:08:01 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 0548760f13000019c12cb8c200000001
+1 < cf-request-id: 05495d3552000017aff6944200000001
 
-20:28:12.678 [print] 
-.798 [print] {
+00:40:41.409 [print] 
+00:40:43.593 karate.env system property was:  
+00:40:43.701 request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_20)
+
+00:40:43.773 response time in milliseconds: 70.16
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 19 Sep 2020 19:08:04 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+00:40:43.833 [print] {
   "data": [
     {
       "profile_image": "",
@@ -270,22 +296,22 @@
   "status": "success"
 }
 
-20:27:15.962 karate.env system property was:  
-20:27:15.981 request:
+00:40:43.959 karate.env system property was:  
+00:40:43.998 request:
 1 > GET http://dummy.restapiexample.com/api/v1/employee/1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: dummy.restapiexample.com
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_241)
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_20)
 
-20:27:17.091 response time in milliseconds: 1108.20
+00:40:45.202 response time in milliseconds: 1203.43
 1 < 200
 1 < Cache-Control: no-cache, private, max-age=31536000
 1 < Content-Length: 179
 1 < Content-Type: application/json
-1 < Date: Sat, 19 Sep 2020 14:54:37 GMT
+1 < Date: Sat, 19 Sep 2020 19:08:05 GMT
 1 < Display: staticcontent_sol
-1 < Expires: Sun, 19 Sep 2021 14:54:37 GMT
+1 < Expires: Sun, 19 Sep 2021 19:08:05 GMT
 1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 1 < Referrer-Policy: 
 1 < Response: 200
@@ -299,7 +325,7 @@
 1 < X-Sol: pub_site
 {"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
 
-20:27:17.094 [print] {
+00:40:45.204 [print] {
   "data": {
     "profile_image": "",
     "employee_name": "Tiger Nixon",
@@ -311,152 +337,19 @@
   "status": "success"
 }
 
-
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Jena Gaines",
-      "employee_salary": "90560",
-      "id": "11",
-      "employee_age": "30"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Quinn Flynn",
-      "employee_salary": "342000",
-      "id": "12",
-      "employee_age": "22"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Charde Marshall",
-      "employee_salary": "470600",
-      "id": "13",
-      "employee_age": "36"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Haley Kennedy",
-      "employee_salary": "313500",
-      "id": "14",
-      "employee_age": "43"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Tatyana Fitzpatrick",
-      "employee_salary": "385750",
-      "id": "15",
-      "employee_age": "19"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Michael Silva",
-      "employee_salary": "198500",
-      "id": "16",
-      "employee_age": "66"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Paul Byrd",
-      "employee_salary": "725000",
-      "id": "17",
-      "employee_age": "64"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Gloria Little",
-      "employee_salary": "237500",
-      "id": "18",
-      "employee_age": "59"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Bradley Greer",
-      "employee_salary": "132000",
-      "id": "19",
-      "employee_age": "41"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Dai Rios",
-      "employee_salary": "217500",
-      "id": "20",
-      "employee_age": "35"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Jenette Caldwell",
-      "employee_salary": "345000",
-      "id": "21",
-      "employee_age": "30"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Yuri Berry",
-      "employee_salary": "675000",
-      "id": "22",
-      "employee_age": "40"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Caesar Vance",
-      "employee_salary": "106450",
-      "id": "23",
-      "employee_age": "21"
-    },
-    {
-      "profile_image": "",
-      "employee_name": "Doris Wilder",
-      "employee_salary": "85600",
-      "id": "24",
-      "employee_age": "23"
-    }
-  ],
-  "status": "success"
-}
-
-20:24:20.826 karate.env system property was:  
-20:24:20.862 request:
-1 > GET http://dummy.restapiexample.com/api/v1/employee/1
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: dummy.restapiexample.com
-1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_241)
-
-20:24:21.985 response time in milliseconds: 1121.87
-1 < 200
-1 < Cache-Control: no-cache, private, max-age=31536000
-1 < Content-Length: 179
-1 < Content-Type: application/json
-1 < Date: Sat, 19 Sep 2020 14:51:42 GMT
-1 < Display: staticcontent_sol
-1 < Expires: Sun, 19 Sep 2021 14:51:42 GMT
-1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-1 < Referrer-Policy: 
-1 < Response: 200
-1 < Server: nginx/1.16.0
-1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
-1 < X-Ezoic-Cdn: Miss
-1 < X-Middleton-Display: staticcontent_sol
-1 < X-Middleton-Response: 200
-1 < X-Ratelimit-Limit: 60
-1 < X-Ratelimit-Remaining: 58
-1 < X-Sol: pub_site
-{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
-
-20:24:21.987 [print] {
-  "data": {
-    "profile_image": "",
-    "employee_name": "Tiger Nixon",
-    "employee_salary": 320800,
-    "id": 1,
-    "employee_age": 61
-  },
-  "message": "Successfully! Record has been fetched.",
-  "status": "success"
-}
-
-rror===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
+unction(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length>3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
+if(typeof func!=='undefined'&&func!==null){func.apply(null,this.parameters);}
+if(self.deleteWhenComplete===true)delete items[name];if(self.isBlock===true){log("----- F'D: "+self.name);processAll();}}},file:function(name,path,isBlock,blockedBy,async,defer,proceedIfError){var self=this;this.name=name;this.path=path;this.async=async;this.defer=defer;this.isBlock=isBlock;this.blockedBy=blockedBy;this.isInitialized=false;this.isError=false;this.isComplete=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){self.isInitialized=true;log("... file = "+name);var scr=document.createElement('script');scr.src=path;if(async===true)scr.async=true;else if(defer===true)scr.defer=true;scr.onerror=function(){log("----- ERR'D: "+self.name);self.isError=true;if(self.isBlock===true){processAll();}};scr.onreadystatechange=scr.onload=function(){var state=scr.readyState;log("----- F'D: "+self.name);if((!state||/loaded|complete/.test(state))){self.isComplete=true;if(self.isBlock===true){processAll();}}};document.getElementsByTagName('head')[0].appendChild(scr);}}};function init(){window.addEventListener("load",function(){setTimeout(function(){timeDelayFired=true;log('TDELAY -----');processAll();},5000);},false);}
+function addFile(name,path,isBlock,blockedBy,async,defer,proceedIfError,priority){var item=new obj.file(name,path,isBlock,blockedBy,async,defer,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function setallowLoad(settobool){allowLoad=settobool}
+function addFunc(name,func,parameters,isBlock,blockedBy,autoInc,deleteWhenComplete,proceedIfError,priority){if(autoInc===true)name=name+"_"+incr++;var item=new obj.func(name,func,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError);if(priority===true){hpItems[name]=item}else{lpItems[name]=item}
+items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFile(name,path){var item=new obj.file(name,path,false,[],false,false,true);item.isTimeDelay=true;log(name+' ... '+' FILE! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function addTimeDelayFunc(name,func,parameters){var item=new obj.func(name,func,parameters,false,[],true,true);item.isTimeDelay=true;log(name+' ... '+' FUNCTION! TDELAY');lpItems[name]=item;items[name]=item;checkIfBlocked(item);}
+function checkIfBlocked(item){if(isBlocked(item)===true||allowLoad==false)return;item.process();}
+function isBlocked(item){if(item.isTimeDelay===true&&timeDelayFired===false){log(item.name+" blocked = TIME DELAY!");return true;}
+if(item.blockedBy instanceof Array){for(var i=0;i<item.blockedBy.length;i++){var block=item.blockedBy[i];if(items.hasOwnProperty(block)===false){log(item.name+" blocked = "+block);return true;}else if(item.proceedIfError===true&&items[block].isError===true){return false;}else if(items[block].isComplete===false){log(item.name+" blocked = "+block);return true;}}}
 return false;}
 function log(msg){var href=window.location.href;var reg=new RegExp('[?&]ezq=([^&#]*)','i');var string=reg.exec(href);var res=string?string[1]:null;if(res==="1")console.debug(msg);}
 function processAll(){count++;if(count>200)return;log("let's go");processItems(hpItems);processItems(lpItems);}
@@ -482,7 +375,7 @@ var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d
 for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
 return false;}
 return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&cb=1', false, [], true, false, true, false);</script>
-<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":0,"bidder_version":3,"city":"Mumbai","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":0,"page_ad_positions":"","page_view_count":0,"page_view_id":"5ebd09eb-9596-4f51-4ff5-3d18beb1097c","position_selection_id":0,"postal_code":"400078","pv_event_count":0,"response_time_orig":992,"serverid":"13.235.77.253:27665","state":"MH","sub_page_ad_positions":"","t_epoch":1600471348,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-18","pageview_id":"5ebd09eb-9596-4f51-4ff5-3d18beb1097c","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","visit_uuid":"ab2d593a-8bc9-4c9e-4c0d-ee4912f7b5e4"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":1,"bidder_version":3,"city":"Mumbai","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1","position_selection_id":0,"postal_code":"400078","pv_event_count":0,"response_time_orig":1048,"serverid":"15.207.89.53:9931","state":"MH","sub_page_ad_positions":"","t_epoch":1600542294,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-19","pageview_id":"7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","visit_uuid":"5b5b6c04-0be2-490a-42fd-836b684e8b70"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
 <script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&cb=2', false, [], true, false, true, false);</script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -609,7 +502,7 @@ function attach_ezolpl(pvID, rv) {
     }
 }
 
-__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["5ebd09eb-9596-4f51-4ff5-3d18beb1097c", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
 </script></head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -641,8 +534,8 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=191-6&sh
 </html>
 
 
-04:55:08.331 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 4; columnNumber: 74; Attribute name "data-pagespeed-no-defer" associated with an element type "script" must be followed by the ' = ' character.
-04:55:08.347 status code was: 429, expected: 200, response time: 1335, url: http://dummy.restapiexample.com/api/v1/employee/1, response: <!DOCTYPE html>
+00:37:35.386 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 4; columnNumber: 74; Attribute name "data-pagespeed-no-defer" associated with an element type "script" must be followed by the ' = ' character.
+00:37:35.389 status code was: 429, expected: 200, response time: 1177, url: http://dummy.restapiexample.com/api/v1/employee/1, response: <!DOCTYPE html>
 <html lang="en">
     <head><meta charset="utf-8">
 <script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=(function(){var count=0,incr=0,items=[],timeDelayFired=false,hpItems=[],lpItems=[],allowLoad=true;var obj={func:function(name,funcName,parameters,isBlock,blockedBy,deleteWhenComplete,proceedIfError){var self=this;this.name=name;this.funcName=funcName;this.parameters=parameters===null?null:(parameters instanceof Array)?parameters:[parameters];this.isBlock=isBlock;this.blockedBy=blockedBy;this.deleteWhenComplete=deleteWhenComplete;this.isError=false;this.isComplete=false;this.isInitialized=false;this.proceedIfError=proceedIfError;this.isTimeDelay=false;this.process=function(){log("... func = "+name);self.isInitialized=true;self.isComplete=true;log("... func.apply: "+name);var funcs=self.funcName.split('.');var func=null;if(funcs.length>3){}else if(funcs.length===3){func=window[funcs[0]][funcs[1]][funcs[2]];}else if(funcs.length===2){func=window[funcs[0]][funcs[1]];}else{func=window[self.funcName];}
@@ -683,7 +576,7 @@ var adUnitName=__ez.dot.getAdUnitPath(adSlot).split('/').pop();if(typeof _ezim_d
 for(var ezimKey in _ezim_d){if(ezimKey.split('/').pop()===adUnitName){return _ezim_d[ezimKey];}}
 return false;}
 return{Add:AddPixel,AddAndFire:AddAndFirePixel,AddById:AddPixelById,Fire:Fire,GetPixels:GetCurrentPixels,};})();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=191-6&cb=1', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=191-6&cb=1', false, [], true, false, true, false);</script>
-<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":0,"bidder_version":3,"city":"Mumbai","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":0,"page_ad_positions":"","page_view_count":0,"page_view_id":"5ebd09eb-9596-4f51-4ff5-3d18beb1097c","position_selection_id":0,"postal_code":"400078","pv_event_count":0,"response_time_orig":992,"serverid":"13.235.77.253:27665","state":"MH","sub_page_ad_positions":"","t_epoch":1600471348,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-18","pageview_id":"5ebd09eb-9596-4f51-4ff5-3d18beb1097c","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","visit_uuid":"ab2d593a-8bc9-4c9e-4c0d-ee4912f7b5e4"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_location_ids":"","ad_transform_level":0,"adx_ad_count":0,"bidder_method":1,"bidder_version":3,"city":"Mumbai","country":"IN","days_since_last_visit":-1,"display_ad_count":0,"domain_id":133674,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":1,"forensiq_score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1","position_selection_id":0,"postal_code":"400078","pv_event_count":0,"response_time_orig":1048,"serverid":"15.207.89.53:9931","state":"MH","sub_page_ad_positions":"","t_epoch":1600542294,"template_id":0,"time_on_site_visit":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","user_id":0,"word_count":0,"worst_bad_word_level":0};var _ezim_d = null;var _ezat = {"domain_id":133674,"form_factor_id":1,"framework_id":1,"pageview_date":"2020-09-19","pageview_id":"7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1","template_id":0,"url":"http://dummy.restapiexample.com/api/v1/employee/1","visit_uuid":"5b5b6c04-0be2-490a-42fd-836b684e8b70"};</script><script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false' type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=191-6&bv=86&v=35&PageSpeed=off', true, [], true, false, false, true);</script>
 <script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=191-6&cb=2', false, [], true, false, true, false);</script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -810,7 +703,7 @@ function attach_ezolpl(pvID, rv) {
     }
 }
 
-__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["5ebd09eb-9596-4f51-4ff5-3d18beb1097c", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["7117772e-0eaf-4b8c-4f1c-bae5ffa80fe1", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
 </script></head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -841,4 +734,6 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=191-6&sh
 <script type='text/javascript' data-cfasync='false'></script></body>
 </html>
 
+
+>
 
