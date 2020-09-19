@@ -1,0 +1,14 @@
+<testsuite failures="0" name="examples/users/featuredata/putRequest.feature" skipped="0" tests="1" time="5.208355">
+  <testcase classname="examples.users.featuredata.putRequest" name="Create a user and validate response" time="5.208355">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users/2' ................................................. passed
+And request jsonPayLoad[1] ................................................ passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[3] ................................... passed</system-out>
+  </testcase>
+</testsuite>

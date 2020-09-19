@@ -1,0 +1,11 @@
+<testsuite failures="0" name="examples/users/featuredata/employeePostRequest.feature" skipped="0" tests="1" time="14.087435">
+  <testcase classname="examples.users.featuredata.employeePostRequest" name="Create a user" time="14.087435">
+    <system-out>* url 'http://dummy.restapiexample.com' ................................... passed
+* def jsonPayLoad = read('../resource/request.json') ...................... passed
+Given path '/public/api/v1/update/21' ..................................... passed
+And request jsonPayLoad ................................................... passed
+When method POST .......................................................... passed
+Then status 405 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,69 @@
+<testsuite failures="0" name="examples/users/featuredata/postRequest.feature" skipped="0" tests="3" time="20.654913">
+  <testcase classname="examples.users.featuredata.postRequest" name="Create a user and validate response" time="8.989991">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users' ................................................... passed
+And request jsonPayLoad[0] ................................................ passed
+And param delay = 3 ....................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[2] ................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.featuredata.postRequest" name="Update a user information and validate response" time="5.747784">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users' ................................................... passed
+And request jsonPayLoad[0] ................................................ passed
+And param delay = 3 ....................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[2] ................................... passed
+* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users/2' ................................................. passed
+And request jsonPayLoad[1] ................................................ passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[3] ................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.featuredata.postRequest" name="Delete a user information and validate response code" time="5.917138">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users' ................................................... passed
+And request jsonPayLoad[0] ................................................ passed
+And param delay = 3 ....................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[2] ................................... passed
+* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/users/2' ................................................. passed
+And request jsonPayLoad[1] ................................................ passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedOutput[3] ................................... passed
+* url 'https://reqres.in/' ................................................ passed
+* def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
+* def expectedOutput = read('../resource/allemployee.json') ............... passed
+* header Content-type = 'application/json' ................................ passed
+Given path '/api/products/3' .............................................. passed
+When method DELETE ........................................................ passed
+Then status 204 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>
