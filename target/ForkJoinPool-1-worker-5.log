@@ -1,5 +1,5 @@
-15:00:31.908 karate.env system property was:  
-15:00:34.085 request:
+15:23:29.865 karate.env system property was:  
+15:23:31.829 request:
 1 > PUT https://reqres.in/api/users/2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -9,28 +9,204 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 {"name":"morpheus","job":"zion resident"}
 
-15:00:36.358 response time in milliseconds: 2267.67
+15:23:34.075 response time in milliseconds: 2243.24
 1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d5a87564bea1750-SIN
+1 < CF-RAY: 5d5aa8f88e410182-SIN
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sun, 20 Sep 2020 09:30:36 GMT
-1 < Etag: W/"50-quqUVF9N7OId2KpZ4w9/5i1qTr4"
+1 < Date: Sun, 20 Sep 2020 09:53:33 GMT
+1 < Etag: W/"50-ibTiUnTDUpgzF3MjdyUbRvW5GWo"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=d900ceb7f74cf0a71dbb43f4e0301e5e81600594235; expires=Tue, 20-Oct-20 09:30:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d1b8da2e3d23438c6c4704cfc4c8937781600595613; expires=Tue, 20-Oct-20 09:53:33 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 054c72e9f10000175086be1200000001
-{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:30:36.187Z"}
+1 < cf-request-id: 054c87ef5200000182d0a50200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:53:33.844Z"}
 
-15:00:36.361 [print] {
+15:23:34.084 [print] {
   "name": "morpheus",
   "job": "zion resident",
-  "updatedAt": "2020-09-20T09:30:36.187Z"
+  "updatedAt": "2020-09-20T09:53:33.844Z"
+}
+
+_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+15:22:14.404 [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
 }
 

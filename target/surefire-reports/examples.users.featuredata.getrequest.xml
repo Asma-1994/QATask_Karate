@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/featuredata/getrequest.feature" skipped="0" tests="2" time="6.203705">
-  <testcase classname="examples.users.featuredata.getrequest" name="get all users and validate Json response,status field,data array and error field not present" time="2.73338">
+<testsuite failures="0" name="examples/users/featuredata/getrequest.feature" skipped="0" tests="2" time="5.217682">
+  <testcase classname="examples.users.featuredata.getrequest" name="get all users and validate Json response,status field,data array and error field not present" time="2.138969">
     <system-out>* url 'http://dummy.restapiexample.com' ................................... passed
 * def expectedOutput = read('../resource/allemployee.json') ............... passed
 Given path '/api/v1/employees' ............................................ passed
@@ -10,7 +10,7 @@ And match response == expectedOutput[0] ................................... pass
 And response.status == 'success' .......................................... passed
 And response.data != null ................................................. passed</system-out>
   </testcase>
-  <testcase classname="examples.users.featuredata.getrequest" name="Validate user data received for user 1 from json file" time="3.470325">
+  <testcase classname="examples.users.featuredata.getrequest" name="Validate user data received for user 1 from json file" time="3.078713">
     <system-out>* url 'http://dummy.restapiexample.com' ................................... passed
 * def expectedOutput = read('../resource/allemployee.json') ............... passed
 Given path '/api/v1/employees' ............................................ passed

@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2020-09-20 03:00:40 PM</div>
+                <div id="nav-date">2020-09-20 03:23:37 PM</div>
                         
       
                 <div class="nav-container">
@@ -72,7 +72,7 @@
                             </div>
                             <span class="scenario-keyword">Scenario: [1:10]</span><span class="scenario-name">get all users and validate Json response,status field,data array and error field not present </span>
                         </div>
-                        <div class="scenario-time passed">ms: 2733</div>
+                        <div class="scenario-time passed">ms: 2139</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[1:10]bg">
@@ -86,44 +86,44 @@
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'http://dummy.restapiexample.com'</div>
                         </div>
-                        <div class="time-cell passed">492</div>
+                        <div class="time-cell passed">9</div>
                     </div>
-                    <div class="preformatted" data-parent="1">15:00:31.885 karate.env system property was:</div>
+                    <div class="preformatted" data-parent="1">15:23:29.873 karate.env system property was:</div>
                     <div class="step-row" data-parent="[1:10]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">55</div>
+                        <div class="time-cell passed">262</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="3">
                             <div class="step-ref passed">3</div>
                             <div class="step-cell passed">Given path '/api/v1/employees'</div>
                         </div>
-                        <div class="time-cell passed">79</div>
+                        <div class="time-cell passed">19</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
                             <div class="step-ref passed">4</div>
                             <div class="step-cell passed">When method get</div>
                         </div>
-                        <div class="time-cell passed">1510</div>
+                        <div class="time-cell passed">1667</div>
                     </div>
-                    <div class="preformatted" data-parent="4">15:00:34.079 request:
+                    <div class="preformatted" data-parent="4">15:23:31.826 request:
 1 &gt; GET http://dummy.restapiexample.com/api/v1/employees
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: dummy.restapiexample.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-15:00:34.259 response time in milliseconds: 168.83
+15:23:31.980 response time in milliseconds: 145.15
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
 1 &lt; Cache-Control: max-age=31536000
 1 &lt; Content-Type: application/json;charset=utf-8
-1 &lt; Date: Sun, 20 Sep 2020 09:30:34 GMT
+1 &lt; Date: Sun, 20 Sep 2020 09:53:31 GMT
 1 &lt; Display: staticcontent_sol
 1 &lt; Referrer-Policy: 
 1 &lt; Response: 200
@@ -146,9 +146,9 @@
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">Then print response</div>
                         </div>
-                        <div class="time-cell passed">89</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="6">15:00:34.353 [print] {
+                    <div class="preformatted" data-parent="6">15:23:32.028 [print] {
   "data": [
     {
       "profile_image": "",
@@ -326,21 +326,21 @@
                             <div class="step-ref passed">7</div>
                             <div class="step-cell passed">And match response == expectedOutput[0]</div>
                         </div>
-                        <div class="time-cell passed">40</div>
+                        <div class="time-cell passed">37</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="8">
                             <div class="step-ref passed">8</div>
                             <div class="step-cell passed">And response.status == 'success'</div>
                         </div>
-                        <div class="time-cell passed">452</div>
+                        <div class="time-cell passed">114</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="9">
                             <div class="step-ref passed">9</div>
                             <div class="step-cell passed">And response.data != null</div>
                         </div>
-                        <div class="time-cell passed">16</div>
+                        <div class="time-cell passed">24</div>
                     </div>
                 </div>
                 <div class="scenario">
@@ -351,7 +351,7 @@
                             </div>
                             <span class="scenario-keyword">Scenario: [2:22]</span><span class="scenario-name">Validate user data received for user 1 from json file </span>
                         </div>
-                        <div class="scenario-time passed">ms: 3470</div>
+                        <div class="scenario-time passed">ms: 3079</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[2:22]bg">
@@ -365,45 +365,45 @@
                             <div class="step-ref bg-step">10</div>
                             <div class="step-cell passed">* url 'http://dummy.restapiexample.com'</div>
                         </div>
-                        <div class="time-cell passed">21</div>
+                        <div class="time-cell passed">15</div>
                     </div>
-                    <div class="preformatted" data-parent="10">15:00:31.917 karate.env system property was:</div>
+                    <div class="preformatted" data-parent="10">15:23:29.863 karate.env system property was:</div>
                     <div class="step-row" data-parent="[2:22]bg">
                         <div class="step-container" id="11">
                             <div class="step-ref bg-step">11</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">534</div>
+                        <div class="time-cell passed">296</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="12">
                             <div class="step-ref passed">12</div>
                             <div class="step-cell passed">Given path '/api/v1/employee/1'</div>
                         </div>
-                        <div class="time-cell passed">66</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="13">
                             <div class="step-ref passed">13</div>
                             <div class="step-cell passed">When method get</div>
                         </div>
-                        <div class="time-cell passed">2784</div>
+                        <div class="time-cell passed">2727</div>
                     </div>
-                    <div class="preformatted" data-parent="13">15:00:34.093 request:
+                    <div class="preformatted" data-parent="13">15:23:31.828 request:
 1 &gt; GET http://dummy.restapiexample.com/api/v1/employee/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: dummy.restapiexample.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-15:00:35.530 response time in milliseconds: 1435.36
+15:23:33.113 response time in milliseconds: 1282.29
 1 &lt; 200
 1 &lt; Cache-Control: no-cache, private, max-age=31536000
 1 &lt; Content-Length: 179
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sun, 20 Sep 2020 09:30:35 GMT
+1 &lt; Date: Sun, 20 Sep 2020 09:53:33 GMT
 1 &lt; Display: staticcontent_sol
-1 &lt; Expires: Mon, 20 Sep 2021 09:30:34 GMT
+1 &lt; Expires: Mon, 20 Sep 2021 09:53:32 GMT
 1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 1 &lt; Referrer-Policy: 
 1 &lt; Response: 200
@@ -428,9 +428,9 @@
                             <div class="step-ref passed">15</div>
                             <div class="step-cell passed">Then print response</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="15">15:00:35.532 [print] {
+                    <div class="preformatted" data-parent="15">15:23:33.121 [print] {
   "data": {
     "profile_image": "",
     "employee_name": "Tiger Nixon",
@@ -446,21 +446,21 @@
                             <div class="step-ref passed">16</div>
                             <div class="step-cell passed">And match response == expectedOutput[1]</div>
                         </div>
-                        <div class="time-cell passed">29</div>
+                        <div class="time-cell passed">16</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="17">
                             <div class="step-ref passed">17</div>
                             <div class="step-cell passed">* def error_data = response.error</div>
                         </div>
-                        <div class="time-cell passed">19</div>
+                        <div class="time-cell passed">8</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="18">
                             <div class="step-ref passed">18</div>
                             <div class="step-cell passed">And match error_data == null</div>
                         </div>
-                        <div class="time-cell passed">16</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                 </div>
             </div>
