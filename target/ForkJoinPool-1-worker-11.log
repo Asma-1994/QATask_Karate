@@ -1,43 +1,39 @@
-15:23:29.864 karate.env system property was:  
-15:23:31.830 request:
-1 > DELETE https://reqres.in/api/products/3
+15:53:35.141 karate.env system property was: demo 
+15:53:37.691 request:
+1 > PUT https://reqres.in/api/users/2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-type: application/json
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
 
-15:23:34.070 response time in milliseconds: 2239.01
-1 < 204
+15:53:39.759 response time in milliseconds: 2065.12
+1 < 200
 1 < Access-Control-Allow-Origin: *
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-RAY: 5d5aa8f84db71738-SIN
+1 < CF-RAY: 5d5ad50d08ca19ac-SIN
 1 < Connection: keep-alive
-1 < Content-Length: 0
-1 < Date: Sun, 20 Sep 2020 09:53:33 GMT
-1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 10:23:39 GMT
+1 < Etag: W/"50-Q0Gw56Qh/JPuZUKXK1zdOcbD8xs"
 1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 < Server: cloudflare
-1 < Set-Cookie: __cfduid=df00ab814a85fcab4e23dd0de053c493e1600595613; expires=Tue, 20-Oct-20 09:53:33 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Set-Cookie: __cfduid=d9591030d2dd57cff6f74d3f55ca16bd21600597419; expires=Tue, 20-Oct-20 10:23:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
-1 < cf-request-id: 054c87ef3100001738002ce200000001
+1 < cf-request-id: 054ca37c28000019aca3ab5200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T10:23:39.343Z"}
 
-15:23:34.072 [print] 
-ecure
-1 < Via: 1.1 vegur
-1 < X-Powered-By: Express
-1 < cf-request-id: 054c86beb10000c34f520fd200000001
-{"name":"morpheus","job":"leader","id":"239","createdAt":"2020-09-20T09:52:18.840Z"}
-
-15:22:19.125 [print] {
-  "createdAt": "2020-09-20T09:52:18.840Z",
+15:53:39.761 [print] {
   "name": "morpheus",
-  "id": "239",
-  "job": "leader"
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T10:23:39.343Z"
 }
 
- been fetched.",
-  "status": "success"
+": "success"
 }
 
