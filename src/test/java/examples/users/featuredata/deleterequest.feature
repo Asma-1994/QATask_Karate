@@ -8,9 +8,11 @@ Feature: QA task for Post Request
     * header Content-type = 'application/json'
     
     
- @Regression     
+ @DeleteRequest 
+ @Regression    
  Scenario: Delete a user information and validate response code
     Given path '/api/products/3'
     When method DELETE
     Then status 204
     Then print response
+    And match response == ''

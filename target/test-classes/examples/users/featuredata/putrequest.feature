@@ -8,7 +8,8 @@ Feature: QA task for Put Request
     * def expectedOutput = read('../resource/allemployee.json')
     * header Content-type = 'application/json' 
 
-@Regression
+@PutRequest
+@Regression  
  Scenario: Update a user information and validate response
     Given path '/api/users/2'
     And request jsonPayLoad[1]

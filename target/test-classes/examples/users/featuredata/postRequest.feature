@@ -7,7 +7,8 @@ Feature: QA task for Post Request
     * def expectedOutput = read('../resource/allemployee.json')
     * header Content-type = 'application/json'
     
- @Regression
+ @PostRequest
+ @Regression  
   Scenario: Create a user and validate response
     Given path '/api/users'
     And request jsonPayLoad[0]

@@ -46,12 +46,12 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2020-09-20 01:27:17 AM</div>
+                <div id="nav-date">2020-09-20 02:06:36 PM</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[1:12]">[1:12] Delete a user information and validate response code </a>
+                        <a href="#[1:13]">[1:13] Delete a user information and validate response code </a>
                     </div>
                 </div>
             </div>
@@ -62,66 +62,66 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">examples/users/featuredata/deleterequest.feature</span><span class="feature-description">QA task for Post Request</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:12]">
+                    <div class="scenario-heading" id="[1:13]">
                         <div class="heading-container">
                             <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">Regression</a>
+                                <a class="badge badge-primary" href="karate-tags.html">Regression</a><a class="badge badge-primary" href="karate-tags.html">DeleteRequest</a>
                             </div>
-                            <span class="scenario-keyword">Scenario: [1:12]</span><span class="scenario-name">Delete a user information and validate response code </span>
+                            <span class="scenario-keyword">Scenario: [1:13]</span><span class="scenario-name">Delete a user information and validate response code </span>
                         </div>
-                        <div class="scenario-time passed">ms: 7284</div>
+                        <div class="scenario-time passed">ms: 5810</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:12]bg">
+                        <div class="step-container" id="[1:13]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:12]bg">
+                    <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://reqres.in/'</div>
                         </div>
-                        <div class="time-cell passed">379</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="1">01:27:06.538 karate.env system property was:</div>
-                    <div class="step-row" data-parent="[1:12]bg">
+                    <div class="preformatted" data-parent="1">14:06:27.183 karate.env system property was:</div>
+                    <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* def jsonPayLoad = read('../resource/postandputrequest.json')</div>
                         </div>
-                        <div class="time-cell passed">175</div>
+                        <div class="time-cell passed">56</div>
                     </div>
-                    <div class="step-row" data-parent="[1:12]bg">
+                    <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">53</div>
+                        <div class="time-cell passed">325</div>
                     </div>
-                    <div class="step-row" data-parent="[1:12]bg">
+                    <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
                             <div class="step-cell passed">* header Content-type = 'application/json'</div>
                         </div>
-                        <div class="time-cell passed">20</div>
+                        <div class="time-cell passed">23</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="5">
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">Given path '/api/products/3'</div>
                         </div>
-                        <div class="time-cell passed">13</div>
+                        <div class="time-cell passed">15</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="6">
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">When method DELETE</div>
                         </div>
-                        <div class="time-cell passed">6644</div>
+                        <div class="time-cell passed">5386</div>
                     </div>
-                    <div class="preformatted" data-parent="6">01:27:10.088 request:
+                    <div class="preformatted" data-parent="6">14:06:31.021 request:
 1 &gt; DELETE https://reqres.in/api/products/3
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -129,21 +129,21 @@
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-01:27:13.989 response time in milliseconds: 3895.69
+14:06:33.252 response time in milliseconds: 2230.45
 1 &lt; 204
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5d55dbfc1e300223-SIN
+1 &lt; CF-RAY: 5d5a344738b31ab8-SIN
 1 &lt; Connection: keep-alive
 1 &lt; Content-Length: 0
-1 &lt; Date: Sat, 19 Sep 2020 19:54:34 GMT
+1 &lt; Date: Sun, 20 Sep 2020 08:33:54 GMT
 1 &lt; Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=dbe03ca6fab411037d2ed38e26b8cd86c1600545274; expires=Mon, 19-Oct-20 19:54:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Set-Cookie: __cfduid=d037f01b060fa3f611d02723745269de81600590833; expires=Tue, 20-Oct-20 08:33:53 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 054987d18c00000223f6089200000001</div>
+1 &lt; cf-request-id: 054c3f008000001ab89fa0a200000001</div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
@@ -158,7 +158,14 @@
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="8">01:27:13.991 [print]</div>
+                    <div class="preformatted" data-parent="8">14:06:33.267 [print]</div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">And match response == ''</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
                 </div>
             </div>
                 

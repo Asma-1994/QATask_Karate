@@ -46,15 +46,15 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2020-09-20 01:27:17 AM</div>
+                <div id="nav-date">2020-09-20 02:06:36 PM</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[1:9]">[1:9] get all users and validate Json response,status field,data array and error field not present </a>
+                        <a href="#[1:10]">[1:10] get all users and validate Json response,status field,data array and error field not present </a>
                     </div>
                     <div class="nav-item passed">
-                        <a href="#[2:20]">[2:20] Validate user data received for user 1 from json file </a>
+                        <a href="#[2:22]">[2:22] Validate user data received for user 1 from json file </a>
                     </div>
                 </div>
             </div>
@@ -65,65 +65,65 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">examples/users/featuredata/getrequest.feature</span><span class="feature-description">QA task</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:9]">
+                    <div class="scenario-heading" id="[1:10]">
                         <div class="heading-container">
                             <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">Regression</a>
+                                <a class="badge badge-primary" href="karate-tags.html">GetRequest</a><a class="badge badge-primary" href="karate-tags.html">Regression</a>
                             </div>
-                            <span class="scenario-keyword">Scenario: [1:9]</span><span class="scenario-name">get all users and validate Json response,status field,data array and error field not present </span>
+                            <span class="scenario-keyword">Scenario: [1:10]</span><span class="scenario-name">get all users and validate Json response,status field,data array and error field not present </span>
                         </div>
-                        <div class="scenario-time passed">ms: 4506</div>
+                        <div class="scenario-time passed">ms: 4100</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:9]bg">
+                        <div class="step-container" id="[1:10]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:9]bg">
+                    <div class="step-row" data-parent="[1:10]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'http://dummy.restapiexample.com'</div>
                         </div>
-                        <div class="time-cell passed">11</div>
+                        <div class="time-cell passed">171</div>
                     </div>
-                    <div class="preformatted" data-parent="1">01:27:05.636 karate.env system property was:</div>
-                    <div class="step-row" data-parent="[1:9]bg">
+                    <div class="preformatted" data-parent="1">14:06:27.183 karate.env system property was:</div>
+                    <div class="step-row" data-parent="[1:10]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">628</div>
+                        <div class="time-cell passed">166</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="3">
                             <div class="step-ref passed">3</div>
                             <div class="step-cell passed">Given path '/api/v1/employees'</div>
                         </div>
-                        <div class="time-cell passed">15</div>
+                        <div class="time-cell passed">22</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="4">
                             <div class="step-ref passed">4</div>
                             <div class="step-cell passed">When method get</div>
                         </div>
-                        <div class="time-cell passed">2932</div>
+                        <div class="time-cell passed">3591</div>
                     </div>
-                    <div class="preformatted" data-parent="4">01:27:10.078 request:
+                    <div class="preformatted" data-parent="4">14:06:31.017 request:
 1 &gt; GET http://dummy.restapiexample.com/api/v1/employees
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: dummy.restapiexample.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-01:27:10.337 response time in milliseconds: 201.70
+14:06:31.672 response time in milliseconds: 635.35
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
 1 &lt; Cache-Control: max-age=31536000
 1 &lt; Content-Type: application/json;charset=utf-8
-1 &lt; Date: Sat, 19 Sep 2020 19:54:30 GMT
+1 &lt; Date: Sun, 20 Sep 2020 08:33:52 GMT
 1 &lt; Display: staticcontent_sol
 1 &lt; Referrer-Policy: 
 1 &lt; Response: 200
@@ -139,16 +139,16 @@
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">Then status 200</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="6">
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">Then print response</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">7</div>
                     </div>
-                    <div class="preformatted" data-parent="6">01:27:10.349 [print] {
+                    <div class="preformatted" data-parent="6">14:06:31.762 [print] {
   "data": [
     {
       "profile_image": "",
@@ -326,84 +326,84 @@
                             <div class="step-ref passed">7</div>
                             <div class="step-cell passed">And match response == expectedOutput[0]</div>
                         </div>
-                        <div class="time-cell passed">34</div>
+                        <div class="time-cell passed">31</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="8">
                             <div class="step-ref passed">8</div>
                             <div class="step-cell passed">And response.status == 'success'</div>
                         </div>
-                        <div class="time-cell passed">866</div>
+                        <div class="time-cell passed">43</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="9">
                             <div class="step-ref passed">9</div>
                             <div class="step-cell passed">And response.data != null</div>
                         </div>
-                        <div class="time-cell passed">16</div>
+                        <div class="time-cell passed">68</div>
                     </div>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[2:20]">
+                    <div class="scenario-heading" id="[2:22]">
                         <div class="heading-container">
                             <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">Regression</a>
+                                <a class="badge badge-primary" href="karate-tags.html">Regression</a><a class="badge badge-primary" href="karate-tags.html">GetRequest2</a>
                             </div>
-                            <span class="scenario-keyword">Scenario: [2:20]</span><span class="scenario-name">Validate user data received for user 1 from json file </span>
+                            <span class="scenario-keyword">Scenario: [2:22]</span><span class="scenario-name">Validate user data received for user 1 from json file </span>
                         </div>
-                        <div class="scenario-time passed">ms: 4495</div>
+                        <div class="scenario-time passed">ms: 5800</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[2:20]bg">
+                        <div class="step-container" id="[2:22]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[2:20]bg">
+                    <div class="step-row" data-parent="[2:22]bg">
                         <div class="step-container" id="10">
                             <div class="step-ref bg-step">10</div>
                             <div class="step-cell passed">* url 'http://dummy.restapiexample.com'</div>
                         </div>
-                        <div class="time-cell passed">29</div>
+                        <div class="time-cell passed">415</div>
                     </div>
-                    <div class="preformatted" data-parent="10">01:27:05.780 karate.env system property was:</div>
-                    <div class="step-row" data-parent="[2:20]bg">
+                    <div class="preformatted" data-parent="10">14:06:27.188 karate.env system property was:</div>
+                    <div class="step-row" data-parent="[2:22]bg">
                         <div class="step-container" id="11">
                             <div class="step-ref bg-step">11</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">24</div>
+                        <div class="time-cell passed">26</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="12">
                             <div class="step-ref passed">12</div>
                             <div class="step-cell passed">Given path '/api/v1/employee/1'</div>
                         </div>
-                        <div class="time-cell passed">7</div>
+                        <div class="time-cell passed">9</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="13">
                             <div class="step-ref passed">13</div>
                             <div class="step-cell passed">When method get</div>
                         </div>
-                        <div class="time-cell passed">4399</div>
+                        <div class="time-cell passed">5307</div>
                     </div>
-                    <div class="preformatted" data-parent="13">01:27:10.080 request:
+                    <div class="preformatted" data-parent="13">14:06:31.022 request:
 1 &gt; GET http://dummy.restapiexample.com/api/v1/employee/1
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: dummy.restapiexample.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-01:27:11.173 response time in milliseconds: 1090.97
+14:06:33.187 response time in milliseconds: 2163.56
 1 &lt; 200
 1 &lt; Cache-Control: no-cache, private, max-age=31536000
 1 &lt; Content-Length: 179
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sat, 19 Sep 2020 19:54:31 GMT
+1 &lt; Date: Sun, 20 Sep 2020 08:33:54 GMT
 1 &lt; Display: staticcontent_sol
-1 &lt; Expires: Sun, 19 Sep 2021 19:54:31 GMT
+1 &lt; Expires: Mon, 20 Sep 2021 08:33:53 GMT
 1 &lt; Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 1 &lt; Referrer-Policy: 
 1 &lt; Response: 200
@@ -428,9 +428,9 @@
                             <div class="step-ref passed">15</div>
                             <div class="step-cell passed">Then print response</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="preformatted" data-parent="15">01:27:11.174 [print] {
+                    <div class="preformatted" data-parent="15">14:06:33.213 [print] {
   "data": {
     "profile_image": "",
     "employee_name": "Tiger Nixon",
@@ -446,21 +446,21 @@
                             <div class="step-ref passed">16</div>
                             <div class="step-cell passed">And match response == expectedOutput[1]</div>
                         </div>
-                        <div class="time-cell passed">11</div>
+                        <div class="time-cell passed">15</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="17">
                             <div class="step-ref passed">17</div>
                             <div class="step-cell passed">* def error_data = response.error</div>
                         </div>
-                        <div class="time-cell passed">20</div>
+                        <div class="time-cell passed">11</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="18">
                             <div class="step-ref passed">18</div>
                             <div class="step-cell passed">And match error_data == null</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">9</div>
                     </div>
                 </div>
             </div>

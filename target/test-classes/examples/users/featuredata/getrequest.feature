@@ -5,7 +5,8 @@ Feature: QA task
     
     * def expectedOutput = read('../resource/allemployee.json')
     
-@Regression
+@GetRequest
+@Regression  
   Scenario: get all users and validate Json response,status field,data array and error field not present
     Given path '/api/v1/employees'
     When method get
@@ -16,7 +17,8 @@ Feature: QA task
     And response.data != null
   
     
-@Regression
+@GetRequest2
+@Regression  
    Scenario: Validate user data received for user 1 from json file
     Given path '/api/v1/employee/1'
     When method get

@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports  - Feature: examples/users/featuredata/postRequest.feature</title>
+<title>Cucumber Reports  - Tag: @DeleteRequest</title>
 
 </head>
 <body>
@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demo</td>
-      <td>20 Sep 2020, 01:27</td>
+      <td>20 Sep 2020, 14:06</td>
     </tr>
   </tbody>
 </table>
@@ -87,7 +87,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Feature Report</h2>
+    <h2>Tag Report</h2>
   </div>
 </div>
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Feature</th>
+    <th>Tag</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -126,19 +126,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">examples/users/featuredata/postRequest.feature</td>
-          <td      class="passed"    >11</td>
+          <td class="tagname">@DeleteRequest</td>
+          <td      class="passed"    >5</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">11</td>
+          <td class="total">5</td>
 
           <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="10342802200">10.342</td>
+          <td class="duration" data-value="5406008100">5.406</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -165,38 +165,31 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="feature">
+      <div class="elements">
 
-<div class="tags indention">
-</div>
-
-
-<div class="brief passed">
-  <span class="keyword indention">Feature</span>
-  <span class="name">examples/users/featuredata/postRequest.feature</span>
-
-
-</div>
-
-        <div class="description indention">QA task for Post Request</div>
-
-        <div class="elements inner-level">
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3973774927.html">examples/users/featuredata/deleterequest.feature</a>
+    </div>
 
 
 <div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_1546384899.html">@DeleteRequest</a>
+       <a href="report-tag_2226523296.html">@Regression</a>
 </div>
 
 
-  <span class="lead-duration duration">0.641</span>
+  <span class="lead-duration duration">5.406</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
-  <span class="keyword indention">Background</span>
-  <span class="name"></span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Delete a user information and validate response code</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -228,73 +221,9 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">url 'https://reqres.in/'</span>
-
-  <span class="lead-duration duration">0.356</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-  <div class="inner-level">
-    <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>01:27:06.527 karate.env system property was:</pre>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def jsonPayLoad = read('../resource/postandputrequest.json')</span>
-
-  <span class="lead-duration duration">0.270</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">def expectedOutput = read('../resource/allemployee.json')</span>
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/api/products/3'</span>
 
   <span class="lead-duration duration">0.014</span>
 
@@ -319,175 +248,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-* passed">
-  <span class="keyword indention">*</span>
-  <span class="name">header Content-type = 'application/json'</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2226523296.html">@Regression</a>
-</div>
-
-
-  <span class="lead-duration duration">9.701</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Create a user and validate response</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-4" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-Given passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">path '/api/users'</span>
-
-  <span class="lead-duration duration">0.017</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">request jsonPayLoad[0]</span>
-
-  <span class="lead-duration duration">0.404</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">param delay = 3</span>
-
-  <span class="lead-duration duration">0.009</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">method POST</span>
+  <span class="name">method DELETE</span>
 
-  <span class="lead-duration duration">9.240</span>
+  <span class="lead-duration duration">5.385</span>
 
 </div>
 
@@ -501,37 +266,33 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
           <a>Doc string</a>
       </div>
-      <div id="msg-6" class="collapse collapsable-details">
-        <pre>01:27:10.084 request:
-1 &gt; POST https://reqres.in/api/users?delay=3
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>14:06:31.021 request:
+1 &gt; DELETE https://reqres.in/api/products/3
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
-1 &gt; Content-Length: 34
-1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-type: application/json
 1 &gt; Host: reqres.in
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
-{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;}
 
-01:27:17.044 response time in milliseconds: 6957.64
-1 &lt; 201
+14:06:33.252 response time in milliseconds: 2230.45
+1 &lt; 204
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5d55dbfc7e39cbf8-SIN
+1 &lt; CF-RAY: 5d5a344738b31ab8-SIN
 1 &lt; Connection: keep-alive
-1 &lt; Content-Length: 84
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sat, 19 Sep 2020 19:54:37 GMT
-1 &lt; Etag: W/&quot;54-gQbk9JUnE86knaBV6s7OpXukeWM&quot;
+1 &lt; Content-Length: 0
+1 &lt; Date: Sun, 20 Sep 2020 08:33:54 GMT
+1 &lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
 1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d396fa8b0f39a58d1393b7a4955d090491600545274; expires=Mon, 19-Oct-20 19:54:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Set-Cookie: __cfduid=d037f01b060fa3f611d02723745269de81600590833; expires=Tue, 20-Oct-20 08:33:53 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 054987d1c90000cbf89d155200000001
-{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;,&quot;id&quot;:&quot;534&quot;,&quot;createdAt&quot;:&quot;2020-09-19T19:54:37.615Z&quot;}</pre>
+1 &lt; cf-request-id: 054c3f008000001ab89fa0a200000001</pre>
       </div>
     </div>
   </div>
@@ -548,7 +309,7 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">status 201</span>
+  <span class="name">status 204</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -577,7 +338,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print response</span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -591,16 +352,11 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="docstring indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
           <a>Doc string</a>
       </div>
-      <div id="msg-7" class="collapse collapsable-details">
-        <pre>01:27:17.055 [print] {
-  &quot;createdAt&quot;: &quot;2020-09-19T19:54:37.615Z&quot;,
-  &quot;name&quot;: &quot;morpheus&quot;,
-  &quot;id&quot;: &quot;534&quot;,
-  &quot;job&quot;: &quot;leader&quot;
-}</pre>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>14:06:33.267 [print]</pre>
       </div>
     </div>
   </div>
@@ -617,9 +373,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">match response == expectedOutput[2]</span>
+  <span class="name">match response == ''</span>
 
-  <span class="lead-duration duration">0.025</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -649,7 +405,6 @@ $(document).ready(function() {
   </div>
 </div>
 
-        </div>
 
       </div>
     </div>
