@@ -19,8 +19,7 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 class UsersRunner {
 	  @Test
-	    void testParallel() {
-		  System.setProperty("karate.env", "demo"); 
+	    void testParallel() { 
 	        Results results = Runner.path("classpath:examples/users").parallel(5);
 	        assertEquals(0, results.getFailCount(), results.getErrorMessages());
 	        generateReport(results.getReportDir());

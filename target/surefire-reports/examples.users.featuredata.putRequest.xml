@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/featuredata/putrequest.feature" skipped="0" tests="1" time="4.208041">
-  <testcase classname="examples.users.featuredata.putrequest" name="Update a user information and validate response" time="4.208041">
+<testsuite failures="0" name="examples/users/featuredata/putrequest.feature" skipped="0" tests="1" time="5.372711">
+  <testcase classname="examples.users.featuredata.putrequest" name="Update a user information and validate response" time="5.372711">
     <system-out>* url 'https://reqres.in/' ................................................ passed
 * def jsonPayLoad = read('../resource/postandputrequest.json') ............ passed
 * def expectedOutput = read('../resource/allemployee.json') ............... passed
