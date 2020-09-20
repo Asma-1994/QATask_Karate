@@ -384,3 +384,1723 @@
 }
 
 14:06:36.288 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature
+14:52:34.701 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:52:36.903 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+14:52:36.901 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+14:52:36.915 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+14:52:36.927 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+14:52:36.893 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+14:52:39.993 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:52:39.999 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"leader"}
+
+14:52:40.003 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/products/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:52:40.007 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:52:40.009 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
+
+14:52:40.966 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 947.65
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:22:40 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+14:52:41.007 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+14:52:41.865 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 1869.84
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Length: 179
+1 < Content-Type: application/json
+1 < Date: Sun, 20 Sep 2020 09:22:41 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Mon, 20 Sep 2021 09:22:41 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+14:52:41.881 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] {
+  "data": {
+    "profile_image": "",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "id": 1,
+    "employee_age": 61
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}
+
+14:52:42.674 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 2660.57
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7bc399ae18f0-SIN
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:22:42 GMT
+1 < Etag: W/"50-Tsq3snlCadLnpOeZconyBbXGnzs"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d22d10d3064e6a69b422924a4a9c5b2691600593761; expires=Tue, 20-Oct-20 09:22:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6bae40000018f0c2287200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:22:42.191Z"}
+
+14:52:42.678 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T09:22:42.191Z"
+}
+
+14:52:42.733 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2706.91
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7bc3a9b81acc-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 20 Sep 2020 09:22:42 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d93e9f001e38e2b7993a226f6d5b4dd411600593761; expires=Tue, 20-Oct-20 09:22:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6bae4400001accd1916200000001
+
+14:52:42.738 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+14:52:42.924 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 4: classpath:examples/users/featuredata/deleterequest.feature
+14:52:42.927 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 4: classpath:examples/users/featuredata/putrequest.feature
+14:52:42.925 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 4: classpath:examples/users/featuredata/getrequest.feature
+14:52:45.378 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 5375.72
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7bc39afd190c-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:22:45 GMT
+1 < Etag: W/"54-PEmVAn+7KBr9ZQm9Aev+L0jrlXw"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd453062b0ea25fb67edb3175cb9cc69a1600593761; expires=Tue, 20-Oct-20 09:22:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6bae3c0000190cf185f200000001
+{"name":"morpheus","job":"leader","id":"138","createdAt":"2020-09-20T09:22:45.181Z"}
+
+14:52:45.398 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "createdAt": "2020-09-20T09:22:45.181Z",
+  "name": "morpheus",
+  "id": "138",
+  "job": "leader"
+}
+
+14:52:45.446 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature
+14:54:57.276 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:54:59.364 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+14:54:59.366 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+14:54:59.365 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+14:54:59.367 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+14:54:59.396 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+14:55:02.753 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/products/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:55:02.755 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
+
+14:55:02.756 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:55:02.756 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:55:02.756 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"leader"}
+
+14:55:02.888 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 118.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:25:02 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+14:55:02.940 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+14:55:04.046 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 1286.46
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Length: 179
+1 < Content-Type: application/json
+1 < Date: Sun, 20 Sep 2020 09:25:03 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Mon, 20 Sep 2021 09:25:03 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+14:55:04.054 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] {
+  "data": {
+    "profile_image": "",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "id": 1,
+    "employee_age": 61
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}
+
+14:55:04.867 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2112.68
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7f3e3d8c021f-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 20 Sep 2020 09:25:04 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc98483269651f00bddd8a500991d31851600593904; expires=Tue, 20-Oct-20 09:25:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6ddae30000021f210f7200000001
+
+14:55:04.869 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+14:55:04.887 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 2116.24
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7f3e38deda00-SIN
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:25:04 GMT
+1 < Etag: W/"50-bMzsHMvtsQzoaM1cfSGYfCREt0Q"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d568568459910781d4fd5f005a6c25afd1600593904; expires=Tue, 20-Oct-20 09:25:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6ddae50000da00f4991200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:25:04.651Z"}
+
+14:55:04.892 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 4: classpath:examples/users/featuredata/getrequest.feature
+14:55:04.901 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T09:25:04.651Z"
+}
+
+14:55:04.914 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 4: classpath:examples/users/featuredata/deleterequest.feature
+14:55:04.927 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 4: classpath:examples/users/featuredata/putrequest.feature
+14:55:07.828 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 5066.95
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a7f3e3b4baa66-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:25:07 GMT
+1 < Etag: W/"54-g8LA9minQoKy7O/jsP7MK7YjuWM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d95039af1324def1e23897fa87bcde8c21600593904; expires=Tue, 20-Oct-20 09:25:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6ddae50000aa66c29f4200000001
+{"name":"morpheus","job":"leader","id":"993","createdAt":"2020-09-20T09:25:07.667Z"}
+
+14:55:07.838 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "createdAt": "2020-09-20T09:25:07.667Z",
+  "name": "morpheus",
+  "id": "993",
+  "job": "leader"
+}
+
+14:55:07.912 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature
+14:56:53.335 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:56:55.664 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+14:56:55.686 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+14:56:55.689 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+14:56:55.694 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+14:56:55.692 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+14:56:58.529 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:56:58.530 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/products/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:56:58.535 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"leader"}
+
+14:56:58.537 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
+
+14:56:58.538 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:56:59.129 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 193.13
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:26:58 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+14:56:59.139 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+14:56:59.855 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 1316.47
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Length: 179
+1 < Content-Type: application/json
+1 < Date: Sun, 20 Sep 2020 09:26:59 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Mon, 20 Sep 2021 09:26:59 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+14:56:59.858 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "data": {
+    "profile_image": "",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "id": 1,
+    "employee_age": 61
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}
+
+14:57:00.702 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 4: classpath:examples/users/featuredata/getrequest.feature
+14:57:00.904 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 2365.18
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a82131ef618ec-SIN
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:27:00 GMT
+1 < Etag: W/"50-TkVUQL15kOttJO4YAs7cCCk7ZFE"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d34acbdd51eeaf6b1ddaedc30d8a1c84a1600594020; expires=Tue, 20-Oct-20 09:27:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6f9feb000018ec9c28f200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:27:00.659Z"}
+
+14:57:00.921 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 2390.12
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a82135f2d01b8-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 20 Sep 2020 09:27:00 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8130dbee584edfbd3f5be51e33f3bde01600594020; expires=Tue, 20-Oct-20 09:27:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6fa018000001b8c395f200000001
+
+14:57:00.924 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] 
+14:57:00.947 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T09:27:00.659Z"
+}
+
+14:57:00.977 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 4: classpath:examples/users/featuredata/deleterequest.feature
+14:57:00.988 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 4: classpath:examples/users/featuredata/putrequest.feature
+14:57:03.846 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 5309.26
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a82133d681a01-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:27:03 GMT
+1 < Etag: W/"54-ElrkM8sE3Hu3OQq6NPpH1A7VCYY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8f5bc5d17d7705e836734b282e14be7e1600594020; expires=Tue, 20-Oct-20 09:27:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c6fa00600001a01580ff200000001
+{"name":"morpheus","job":"leader","id":"464","createdAt":"2020-09-20T09:27:03.658Z"}
+
+14:57:03.850 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "createdAt": "2020-09-20T09:27:03.658Z",
+  "name": "morpheus",
+  "id": "464",
+  "job": "leader"
+}
+
+14:57:03.892 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature
+14:58:29.535 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:58:31.080 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+14:58:31.099 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+14:58:31.059 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+14:58:31.094 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+14:58:31.104 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+14:58:34.335 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:58:34.335 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/products/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:58:34.339 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"leader"}
+
+14:58:34.342 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
+
+14:58:34.345 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+14:58:35.012 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 666.72
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:28:34 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+14:58:35.021 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+14:58:35.844 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 1495.63
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Length: 179
+1 < Content-Type: application/json
+1 < Date: Sun, 20 Sep 2020 09:28:35 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Mon, 20 Sep 2021 09:28:35 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+14:58:35.852 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "data": {
+    "profile_image": "",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "id": 1,
+    "employee_age": 61
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}
+
+14:58:36.362 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 4: classpath:examples/users/featuredata/getrequest.feature
+14:58:36.640 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2302.52
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a84698c4a01ab-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 20 Sep 2020 09:28:36 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd030164d7290506d2d6cd5e4264057b51600594116; expires=Tue, 20-Oct-20 09:28:36 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c7115f0000001ab530a7200000001
+
+14:58:36.642 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+14:58:36.644 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 2298.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a84698b5e1a2e-SIN
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:28:36 GMT
+1 < Etag: W/"50-uHMKBgp0+Odd74WFth1LPBhAS5E"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0e659b01dcca4195d6233986f19057411600594116; expires=Tue, 20-Oct-20 09:28:36 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c7115f100001a2e2baa5200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:28:36.376Z"}
+
+14:58:36.650 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T09:28:36.376Z"
+}
+
+14:58:36.692 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 4: classpath:examples/users/featuredata/deleterequest.feature
+14:58:36.708 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 4: classpath:examples/users/featuredata/putrequest.feature
+14:58:39.600 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 5257.24
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a8469881301d9-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 83
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:28:39 GMT
+1 < Etag: W/"53-bZE3rdCXZjxPhEzsCdo/klfQdQY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1e6d710ac3b3d41b3ba8cc821df8ce2c1600594116; expires=Tue, 20-Oct-20 09:28:36 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c7115f2000001d974ba9200000001
+{"name":"morpheus","job":"leader","id":"32","createdAt":"2020-09-20T09:28:39.378Z"}
+
+14:58:39.618 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "createdAt": "2020-09-20T09:28:39.378Z",
+  "name": "morpheus",
+  "id": "32",
+  "job": "leader"
+}
+
+14:58:39.658 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature
+15:00:30.650 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+15:00:31.877 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+15:00:31.901 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+15:00:31.907 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+15:00:31.916 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+15:00:31.926 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+15:00:34.075 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/products/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-type: application/json
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+15:00:34.078 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employees
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+15:00:34.082 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users?delay=3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 34
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"leader"}
+
+15:00:34.085 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 41
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{"name":"morpheus","job":"zion resident"}
+
+15:00:34.081 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+15:00:34.259 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 168.83
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: max-age=31536000
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:30:34 GMT
+1 < Display: staticcontent_sol
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Hit ds;mm;64e5dcd8fd074fe044e20470a9643699;2-133674-2;11eea874-25cc-4a8a-4a7a-e7fd9bafe9d8
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Sol: pub_site
+{"status":"success","data":[{"id":"1","employee_name":"Tiger Nixon","employee_salary":"320800","employee_age":"61","profile_image":""},{"id":"2","employee_name":"Garrett Winters","employee_salary":"170750","employee_age":"63","profile_image":""},{"id":"3","employee_name":"Ashton Cox","employee_salary":"86000","employee_age":"66","profile_image":""},{"id":"4","employee_name":"Cedric Kelly","employee_salary":"433060","employee_age":"22","profile_image":""},{"id":"5","employee_name":"Airi Satou","employee_salary":"162700","employee_age":"33","profile_image":""},{"id":"6","employee_name":"Brielle Williamson","employee_salary":"372000","employee_age":"61","profile_image":""},{"id":"7","employee_name":"Herrod Chandler","employee_salary":"137500","employee_age":"59","profile_image":""},{"id":"8","employee_name":"Rhona Davidson","employee_salary":"327900","employee_age":"55","profile_image":""},{"id":"9","employee_name":"Colleen Hurst","employee_salary":"205500","employee_age":"39","profile_image":""},{"id":"10","employee_name":"Sonya Frost","employee_salary":"103600","employee_age":"23","profile_image":""},{"id":"11","employee_name":"Jena Gaines","employee_salary":"90560","employee_age":"30","profile_image":""},{"id":"12","employee_name":"Quinn Flynn","employee_salary":"342000","employee_age":"22","profile_image":""},{"id":"13","employee_name":"Charde Marshall","employee_salary":"470600","employee_age":"36","profile_image":""},{"id":"14","employee_name":"Haley Kennedy","employee_salary":"313500","employee_age":"43","profile_image":""},{"id":"15","employee_name":"Tatyana Fitzpatrick","employee_salary":"385750","employee_age":"19","profile_image":""},{"id":"16","employee_name":"Michael Silva","employee_salary":"198500","employee_age":"66","profile_image":""},{"id":"17","employee_name":"Paul Byrd","employee_salary":"725000","employee_age":"64","profile_image":""},{"id":"18","employee_name":"Gloria Little","employee_salary":"237500","employee_age":"59","profile_image":""},{"id":"19","employee_name":"Bradley Greer","employee_salary":"132000","employee_age":"41","profile_image":""},{"id":"20","employee_name":"Dai Rios","employee_salary":"217500","employee_age":"35","profile_image":""},{"id":"21","employee_name":"Jenette Caldwell","employee_salary":"345000","employee_age":"30","profile_image":""},{"id":"22","employee_name":"Yuri Berry","employee_salary":"675000","employee_age":"40","profile_image":""},{"id":"23","employee_name":"Caesar Vance","employee_salary":"106450","employee_age":"21","profile_image":""},{"id":"24","employee_name":"Doris Wilder","employee_salary":"85600","employee_age":"23","profile_image":""}]}
+
+15:00:34.336 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] {
+  "data": [
+    {
+      "profile_image": "",
+      "employee_name": "Tiger Nixon",
+      "employee_salary": "320800",
+      "id": "1",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Garrett Winters",
+      "employee_salary": "170750",
+      "id": "2",
+      "employee_age": "63"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Ashton Cox",
+      "employee_salary": "86000",
+      "id": "3",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Cedric Kelly",
+      "employee_salary": "433060",
+      "id": "4",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Airi Satou",
+      "employee_salary": "162700",
+      "id": "5",
+      "employee_age": "33"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Brielle Williamson",
+      "employee_salary": "372000",
+      "id": "6",
+      "employee_age": "61"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Herrod Chandler",
+      "employee_salary": "137500",
+      "id": "7",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Rhona Davidson",
+      "employee_salary": "327900",
+      "id": "8",
+      "employee_age": "55"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Colleen Hurst",
+      "employee_salary": "205500",
+      "id": "9",
+      "employee_age": "39"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Sonya Frost",
+      "employee_salary": "103600",
+      "id": "10",
+      "employee_age": "23"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jena Gaines",
+      "employee_salary": "90560",
+      "id": "11",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Quinn Flynn",
+      "employee_salary": "342000",
+      "id": "12",
+      "employee_age": "22"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Charde Marshall",
+      "employee_salary": "470600",
+      "id": "13",
+      "employee_age": "36"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Haley Kennedy",
+      "employee_salary": "313500",
+      "id": "14",
+      "employee_age": "43"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": "385750",
+      "id": "15",
+      "employee_age": "19"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Michael Silva",
+      "employee_salary": "198500",
+      "id": "16",
+      "employee_age": "66"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Paul Byrd",
+      "employee_salary": "725000",
+      "id": "17",
+      "employee_age": "64"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Gloria Little",
+      "employee_salary": "237500",
+      "id": "18",
+      "employee_age": "59"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Bradley Greer",
+      "employee_salary": "132000",
+      "id": "19",
+      "employee_age": "41"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Dai Rios",
+      "employee_salary": "217500",
+      "id": "20",
+      "employee_age": "35"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": "345000",
+      "id": "21",
+      "employee_age": "30"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Yuri Berry",
+      "employee_salary": "675000",
+      "id": "22",
+      "employee_age": "40"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Caesar Vance",
+      "employee_salary": "106450",
+      "id": "23",
+      "employee_age": "21"
+    },
+    {
+      "profile_image": "",
+      "employee_name": "Doris Wilder",
+      "employee_salary": "85600",
+      "id": "24",
+      "employee_age": "23"
+    }
+  ],
+  "status": "success"
+}
+
+15:00:35.529 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 1435.36
+1 < 200
+1 < Cache-Control: no-cache, private, max-age=31536000
+1 < Content-Length: 179
+1 < Content-Type: application/json
+1 < Date: Sun, 20 Sep 2020 09:30:35 GMT
+1 < Display: staticcontent_sol
+1 < Expires: Mon, 20 Sep 2021 09:30:34 GMT
+1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+1 < Referrer-Policy: 
+1 < Response: 200
+1 < Server: nginx/1.16.0
+1 < Vary: [Accept-Encoding, Accept-Encoding,User-Agent,Origin]
+1 < X-Ezoic-Cdn: Miss
+1 < X-Middleton-Display: staticcontent_sol
+1 < X-Middleton-Response: 200
+1 < X-Ratelimit-Limit: 60
+1 < X-Ratelimit-Remaining: 58
+1 < X-Sol: pub_site
+{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+
+15:00:35.531 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] {
+  "data": {
+    "profile_image": "",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": 320800,
+    "id": 1,
+    "employee_age": 61
+  },
+  "message": "Successfully! Record has been fetched.",
+  "status": "success"
+}
+
+15:00:36.357 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 2267.67
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a87564bea1750-SIN
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:30:36 GMT
+1 < Etag: W/"50-quqUVF9N7OId2KpZ4w9/5i1qTr4"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d900ceb7f74cf0a71dbb43f4e0301e5e81600594235; expires=Tue, 20-Oct-20 09:30:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c72e9f10000175086be1200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:30:36.187Z"}
+
+15:00:36.360 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "name": "morpheus",
+  "job": "zion resident",
+  "updatedAt": "2020-09-20T09:30:36.187Z"
+}
+
+15:00:36.371 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 2294.78
+1 < 204
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a87565956c39a-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 20 Sep 2020 09:30:36 GMT
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1233d39cbeb754809b8e2af1ee59fff81600594235; expires=Tue, 20-Oct-20 09:30:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c72e9f30000c39afa127200000001
+
+15:00:36.373 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+15:00:36.445 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 4: classpath:examples/users/featuredata/deleterequest.feature
+15:00:36.456 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 4: classpath:examples/users/featuredata/putrequest.feature
+15:00:36.472 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 4: classpath:examples/users/featuredata/getrequest.feature
+15:00:39.354 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 5269.11
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d5a87564d581a36-SIN
+1 < Connection: keep-alive
+1 < Content-Length: 84
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 20 Sep 2020 09:30:39 GMT
+1 < Etag: W/"54-D1+u1Oo609YZ52STPVFSrHaICCY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9e887fa422951df4b3774beb91aab4ec1600594235; expires=Tue, 20-Oct-20 09:30:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 054c72e9f100001a36ee309200000001
+{"name":"morpheus","job":"leader","id":"415","createdAt":"2020-09-20T09:30:39.184Z"}
+
+15:00:39.374 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "createdAt": "2020-09-20T09:30:39.184Z",
+  "name": "morpheus",
+  "id": "415",
+  "job": "leader"
+}
+
+15:00:39.427 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 4: classpath:examples/users/featuredata/postRequest.feature

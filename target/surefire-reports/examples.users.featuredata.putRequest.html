@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2020-09-20 02:06:36 PM</div>
+                <div id="nav-date">2020-09-20 03:00:40 PM</div>
                         
       
                 <div class="nav-container">
@@ -69,7 +69,7 @@
                             </div>
                             <span class="scenario-keyword">Scenario: [1:13]</span><span class="scenario-name">Update a user information and validate response </span>
                         </div>
-                        <div class="scenario-time passed">ms: 5859</div>
+                        <div class="scenario-time passed">ms: 4233</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[1:13]bg">
@@ -83,52 +83,52 @@
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'https://reqres.in/'</div>
                         </div>
-                        <div class="time-cell passed">7</div>
+                        <div class="time-cell passed">23</div>
                     </div>
-                    <div class="preformatted" data-parent="1">14:06:27.187 karate.env system property was:</div>
+                    <div class="preformatted" data-parent="1">15:00:31.908 karate.env system property was:</div>
                     <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* def jsonPayLoad = read('../resource/postandputrequest.json')</div>
                         </div>
-                        <div class="time-cell passed">261</div>
+                        <div class="time-cell passed">481</div>
                     </div>
                     <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-cell passed">* def expectedOutput = read('../resource/allemployee.json')</div>
                         </div>
-                        <div class="time-cell passed">228</div>
+                        <div class="time-cell passed">28</div>
                     </div>
                     <div class="step-row" data-parent="[1:13]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
                             <div class="step-cell passed">* header Content-type = 'application/json'</div>
                         </div>
-                        <div class="time-cell passed">0</div>
+                        <div class="time-cell passed">90</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="5">
                             <div class="step-ref passed">5</div>
                             <div class="step-cell passed">Given path '/api/users/2'</div>
                         </div>
-                        <div class="time-cell passed">12</div>
+                        <div class="time-cell passed">21</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="6">
                             <div class="step-ref passed">6</div>
                             <div class="step-cell passed">And request jsonPayLoad[1]</div>
                         </div>
-                        <div class="time-cell passed">341</div>
+                        <div class="time-cell passed">146</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="7">
                             <div class="step-ref passed">7</div>
                             <div class="step-cell passed">When method PUT</div>
                         </div>
-                        <div class="time-cell passed">4960</div>
+                        <div class="time-cell passed">3435</div>
                     </div>
-                    <div class="preformatted" data-parent="7">14:06:31.022 request:
+                    <div class="preformatted" data-parent="7">15:00:34.085 request:
 1 &gt; PUT https://reqres.in/api/users/2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
@@ -138,24 +138,24 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 {"name":"morpheus","job":"zion resident"}
 
-14:06:33.233 response time in milliseconds: 2208.77
+15:00:36.358 response time in milliseconds: 2267.67
 1 &lt; 200
 1 &lt; Access-Control-Allow-Origin: *
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; CF-RAY: 5d5a344739f817bf-SIN
+1 &lt; CF-RAY: 5d5a87564bea1750-SIN
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Sun, 20 Sep 2020 08:33:54 GMT
-1 &lt; Etag: W/"50-X0jeBp97qpGnu9ncAKVtlOBAlEE"
+1 &lt; Date: Sun, 20 Sep 2020 09:30:36 GMT
+1 &lt; Etag: W/"50-quqUVF9N7OId2KpZ4w9/5i1qTr4"
 1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
 1 &lt; Server: cloudflare
-1 &lt; Set-Cookie: __cfduid=d72da3ceadd7dfadd09bad13b759f6a871600590833; expires=Tue, 20-Oct-20 08:33:53 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Set-Cookie: __cfduid=d900ceb7f74cf0a71dbb43f4e0301e5e81600594235; expires=Tue, 20-Oct-20 09:30:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
 1 &lt; Via: 1.1 vegur
 1 &lt; X-Powered-By: Express
-1 &lt; cf-request-id: 054c3f007e000017bfd4a14200000001
-{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T08:33:54.081Z"}</div>
+1 &lt; cf-request-id: 054c72e9f10000175086be1200000001
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-20T09:30:36.187Z"}</div>
                     <div class="step-row">
                         <div class="step-container" id="8">
                             <div class="step-ref passed">8</div>
@@ -170,17 +170,17 @@
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="9">14:06:33.255 [print] {
+                    <div class="preformatted" data-parent="9">15:00:36.361 [print] {
   "name": "morpheus",
   "job": "zion resident",
-  "updatedAt": "2020-09-20T08:33:54.081Z"
+  "updatedAt": "2020-09-20T09:30:36.187Z"
 }</div>
                     <div class="step-row">
                         <div class="step-container" id="10">
                             <div class="step-ref passed">10</div>
                             <div class="step-cell passed">And match response == expectedOutput[3]</div>
                         </div>
-                        <div class="time-cell passed">50</div>
+                        <div class="time-cell passed">8</div>
                     </div>
                 </div>
             </div>

@@ -1,19 +1,19 @@
-14:06:27.188 karate.env system property was:  
-14:06:31.022 request:
+15:00:31.917 karate.env system property was:  
+15:00:34.093 request:
 1 > GET http://dummy.restapiexample.com/api/v1/employee/1
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: dummy.restapiexample.com
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
 
-14:06:33.187 response time in milliseconds: 2163.56
+15:00:35.530 response time in milliseconds: 1435.36
 1 < 200
 1 < Cache-Control: no-cache, private, max-age=31536000
 1 < Content-Length: 179
 1 < Content-Type: application/json
-1 < Date: Sun, 20 Sep 2020 08:33:54 GMT
+1 < Date: Sun, 20 Sep 2020 09:30:35 GMT
 1 < Display: staticcontent_sol
-1 < Expires: Mon, 20 Sep 2021 08:33:53 GMT
+1 < Expires: Mon, 20 Sep 2021 09:30:34 GMT
 1 < Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
 1 < Referrer-Policy: 
 1 < Response: 200
@@ -27,7 +27,7 @@
 1 < X-Sol: pub_site
 {"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
 
-14:06:33.213 [print] {
+15:00:35.532 [print] {
   "data": {
     "profile_image": "",
     "employee_name": "Tiger Nixon",
